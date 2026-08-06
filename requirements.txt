@@ -1,0 +1,14 @@
+# Dependencies for the Generative Modelling Case Study notebook.
+# Minimum versions the notebook is written against; on Colab only the extras
+# (medmnist, torchmetrics, torch-fidelity) are pip-installed by the first cell.
+# Capture the exact environment after a run with: pip freeze > requirements.lock.txt
+
+torch>=2.1.0
+torchvision>=0.16.0
+torchmetrics[image]>=1.2.0
+torch-fidelity>=0.3.0
+medmnist>=3.0.1
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+matplotlib>=3.7.0
